@@ -1,0 +1,57 @@
+# Maison Verre — SQL Client Intelligence Report
+
+## Overview
+This project simulates a real-world SQL analytics workflow for **Maison Verre**, 
+a fictional luxury multi-brand retailer. The goal was to build a structured client 
+intelligence report that surfaces actionable insights for loyalty strategy, 
+merchandising, and tier management decisions.
+
+## Business Questions Answered
+- Who are the top-spending clients and how do they rank?
+- Do client tier assignments reflect actual spending behavior?
+- Which clients have never made a purchase?
+- Which product categories drive the most revenue?
+- Which individual transactions performed above average?
+
+## SQL Concepts Demonstrated
+- SELECT, WHERE, ORDER BY, aliases
+- Date filtering and comparison operators
+- Calculated columns and aggregate functions (SUM, COUNT, AVG, ROUND)
+- GROUP BY and HAVING
+- INNER JOIN and LEFT JOIN with NULL detection
+- CASE WHEN conditional logic
+- Subqueries
+- Common Table Expressions (CTEs)
+- Window functions (RANK)
+
+## Files
+| File | Description |
+|------|-------------|
+| `schema.sql` | Table definitions and seed data for clients and sales |
+| `client_intelligence_report.sql` | Four-query analytical report |
+
+## Result Sets
+**Result Set 1 — Client Spend Summary**
+Ranks all purchasing clients by total spend, assigns a spend segment 
+(High / Mid / Low Spender), and flags clients whose tier does not match 
+their spending behavior for loyalty team review.
+
+**Result Set 2 — Clients With No Purchases**
+Identifies registered clients who have never transacted — 
+targeting candidates for a first-purchase incentive campaign.
+
+**Result Set 3 — Category Performance**
+Summarizes total revenue, transaction count, and average transaction 
+value per product category to inform seasonal inventory decisions.
+
+**Result Set 4 — Above-Average Transactions**
+Isolates individual transactions that exceeded the overall average 
+transaction value using a scalar subquery.
+
+## Tools
+- SQL (MySQL 9)
+- DB-Fiddle (development and testing)
+
+## Context
+This project was built as part of a structured SQL portfolio curriculum 
+targeting business analytics roles in luxury retail and fashion.
