@@ -50,18 +50,29 @@ Skills demonstrated:
 
 ---
 
-### Data Visualization Track — Coming Soon
-**20 tasks per tool + capstone | Tableau & Power BI**
+## Data Visualization — Power BI & Tableau
 
-Parallel visualization tracks built independently in Tableau and Power BI, 
-alternating between tools across 20 progressive tasks. All visuals use Maison 
-Verre performance data.
+A structured 20-task visualization curriculum completed across 
+Power BI and Tableau, built entirely around the Maison Verre 
+luxury retail scenario. Tasks progress from single-chart 
+fundamentals through multi-visual executive dashboards, 
+alternating between tools to build parallel proficiency.
 
-Skills demonstrated:
-- Bar, line, donut, clustered and stacked bar, multi-line charts
-- Multi-visual executive dashboards
-- Calculated fields and dynamic filtering
-- Capstone projects for both Tableau and Power BI
+Skills covered include bar, line, donut, clustered, and stacked 
+charts, KPI card design, multi-line trend analysis, clustered 
+category comparisons, and precise canvas layout using pixel 
+positioning. All visuals follow a consistent luxury brand palette 
+and are formatted to executive presentation standards.
+
+### Power BI Capstone — Q4 Executive Performance Dashboard
+A boardroom-ready single-page dashboard presenting Maison Verre's 
+Q4 performance across six product categories and three store 
+locations. Includes revenue by category, monthly store trend 
+by location, revenue share donut chart, and three KPI callout 
+cards — Total Revenue, Top Store, and Top Category.
+
+### Tableau Capstone — Q4 Executive Summary Dashboard
+[To be completed]
 
 ---
 
